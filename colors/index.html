@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+        </style>
+</body>
+
+<body>
     <h1>Pick a Color</h1>
 
-    <div class="reset-container">
+    <p id="colorText" class="color-text"></p>
+
+    <!-- <div class="reset-container">
         <button onClick="window.location.reload();">Reset Page</button>
-    </div>
+    </div> -->
 
     <div class="button-container">
         <button class="button red" id="redButton">Red</button>
@@ -20,6 +28,8 @@
         <button class="button green" id="greenButton">Green</button>
         <button class="button blue" id="blueButton">Blue</button>
         <button class="button purple" id="purpleButton">Purple</button>
+    
+        <button class="button reset" id="resetButton">Reset</button>
     </div>
 
     <script src="script.js"></script>
