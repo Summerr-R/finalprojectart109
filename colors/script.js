@@ -1,7 +1,7 @@
-// Get the "Red" button by its ID
+
 const redButton = document.getElementById("redButton");
 
-// Add an event listener to the "Red" button
+
 redButton.addEventListener("click", function() {
     document.body.style.backgroundColor = "red"; // Change the background color to red
 });
@@ -35,32 +35,32 @@ const colorText = document.getElementById("colorText");
 
 document.getElementById("redButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "red";
-  colorText.textContent = "Passion, Love, and Excitement";
+  colorText.textContent = "Passion, Love, and Excitement. But also danger and anger.";
 });
 
 document.getElementById("orangeButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "orange";
-  colorText.textContent = "Energy, enthusiasm, warmth, change, and movement";
+  colorText.textContent = "Energy, enthusiasm, warmth, change, and movement. But also arrogance and pride.";
 });
 
 document.getElementById("yellowButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "yellow";
-  colorText.textContent = "Happiness, joy, optimism";
+  colorText.textContent = "Happiness, joy, optimism. But also cowardice and deceit.";
 });
 
 document.getElementById("greenButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "green";
-  colorText.textContent = "Nature, growth, renewal, tranquility, harmony";
+  colorText.textContent = "Nature, growth, renewal, tranquility, harmony. But also green and death.";
 });
 
 document.getElementById("blueButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "blue";
-  colorText.textContent = "Serenity, calmness, inspiration, wisdom";
+  colorText.textContent = "Serenity, calmness, inspiration, wisdom. But also sadness and uncertainty.";
 });
 
 document.getElementById("purpleButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "purple";
-  colorText.textContent = "Royalty, luxury, balance, bravery, and independence";
+  colorText.textContent = "Royalty, luxury, balance, bravery, and independence. But also instability and arrogance.";
 });
 
 document.getElementById("reset-Button").addEventListener("click", function () {
