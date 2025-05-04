@@ -6,7 +6,7 @@ redButton.addEventListener("click", function() {
     document.body.style.backgroundColor = "red"; // Change the background color to red
 });
 
-// You can add similar event listeners for other buttons if needed
+
 const orangeButton = document.getElementById("orangeButton");
 orangeButton.addEventListener("click", function() {
     document.body.style.backgroundColor = "orange"; // Change the background color to orange
@@ -35,35 +35,34 @@ const colorText = document.getElementById("colorText");
 
 document.getElementById("redButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "red";
-  colorText.textContent = "You chose Red!";
+  colorText.textContent = "Passion, Love, and Excitement";
 });
 
 document.getElementById("orangeButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "orange";
-  colorText.textContent = "You chose Orange!";
+  colorText.textContent = "Energy, enthusiasm, warmth, change, and movement";
 });
 
 document.getElementById("yellowButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "yellow";
-  colorText.textContent = "You chose Yellow!";
+  colorText.textContent = "Happiness, joy, optimism";
 });
 
 document.getElementById("greenButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "green";
-  colorText.textContent = "You chose Green!";
+  colorText.textContent = "Nature, growth, renewal, tranquility, harmony";
 });
 
 document.getElementById("blueButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "blue";
-  colorText.textContent = "You chose Blue!";
+  colorText.textContent = "Serenity, calmness, inspiration, wisdom";
 });
 
 document.getElementById("purpleButton").addEventListener("click", () => {
   document.body.style.backgroundColor = "purple";
-  colorText.textContent = "You chose Purple!";
+  colorText.textContent = "Royalty, luxury, balance, bravery, and independence";
 });
 
-document.getElementById("resetButton").addEventListener("click", () => {
-    document.body.style.backgroundColor = "";
-    colorText.textContent = "";
+document.getElementById("reset-Button").addEventListener("click", function () {
+    location.reload();
   });

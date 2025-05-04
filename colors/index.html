@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What Color are You?</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Color are You?</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Move this style into the head -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+  </style>
 </head>
-<body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
-        </style>
-</body>
 
 <body>
-    <h1>Pick a Color</h1>
+  <h1>Pick a Color</h1>
 
-    <p id="colorText" class="color-text"></p>
+  <p id="colorText" class="color-text"></p>
+<div class="button-wrapper">
+  <div class="button-container">
+    <button class="button red" id="redButton">Red</button>
+    <button class="button orange" id="orangeButton">Orange</button>
+    <button class="button yellow" id="yellowButton">Yellow</button>
+    <button class="button green" id="greenButton">Green</button>
+    <button class="button blue" id="blueButton">Blue</button>
+    <button class="button purple" id="purpleButton">Purple</button>
+  </div>
+  <button onclick="location.reload()" class="reset-button">Reset</button>
+</div>
 
-    <!-- <div class="reset-container">
-        <button onClick="window.location.reload();">Reset Page</button>
-    </div> -->
-
-    <div class="button-container">
-        <button class="button red" id="redButton">Red</button>
-        <button class="button orange" id="orangeButton">Orange</button>
-        <button class="button yellow" id="yellowButton">Yellow</button>
-        <button class="button green" id="greenButton">Green</button>
-        <button class="button blue" id="blueButton">Blue</button>
-        <button class="button purple" id="purpleButton">Purple</button>
-    
-        <button class="button reset" id="resetButton">Reset</button>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
+<h2>But what color are you?</h2>
+
+<h3>Today, I am...</h3>
+<textarea rows="" placeholder=""></textarea>
+
+<h3>The color that makes me happy is...</h3>
+<textarea rows="" placeholder=""></textarea>
+
+<h3>It reminds me of...</h3>
+<textarea rows="" placeholder=""></textarea>
+
+<h3>If I were a color, I would be...</h3>
+<textarea rows="" placeholder=""></textarea>
+
+<p>....</p>
+
+<p>Colors can evoke powerful emotions and memories, often holding unique meanings for each individual. A color that brings someone comfort might remind another person of a difficult time. Our personal experiences, preferences, and associations shape how we connect with different colors, making them a deeply personal and expressive part of how we see the world.</p>
+
+<p>Thank you! ≽^•⩊•^≼</p>
 </html>
